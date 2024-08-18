@@ -1,0 +1,45 @@
+.innerbody{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+     /* navbar properties */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    
+}
+.mini-nav{
+    display: flex;
+    gap: 30px;
+}
+    /* intro-part */
+.intro{
+    display: flex;
+    justify-content: space-between;   
+    align-items: flex-start;
+    gap: 20px;
+}
+.textimg_placeholders{
+    flex: 1;
+    margin-top: 60px;
+    margin-bottom: 30px;
+      
+}
+.textimg_placeholders img{
+    max-width: 100%;
+    
+    height: auto; 
+}
+.textimg_placeholders #first{
+    align-self: flex-start;
+}
+.slogan{
+    padding: 0;
+    margin: 0;
+}
