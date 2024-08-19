@@ -133,4 +133,46 @@ button{
 .credit{
     align-self: flex-end;
     font-size: 30px;
+    margin-right: 5%;
+    color: #1f2937;
+}
+.box{
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+
+
+}
+.explore{
+    border-radius: 10px;
+    align-self: flex-start;
+    border-color: #f9faf8;
+    font-size: 20px;
+
+}
+.innerbox h3{
+    color: #e5e7eb;
+    font-size: 30px;
+    
+}
+
+.innerbox p{
+    font-size: 20px;
+    
+}
+.action{
+    margin: 10px;
+}
+
+/* ---footer--- */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(90, 19%, 85%);
+    background-color: #1f2937;
+    height: 70px;
 }
