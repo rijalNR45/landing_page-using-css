@@ -1,3 +1,4 @@
+/* for the responsiveness */
 @media (max-width: 768px){
     .container{
         flex: 1 1 45%;
@@ -79,7 +80,7 @@ body{
 }
 .slogan{
     color: hsl(90, 19%, 85%);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 800;
 
     padding: 0;
@@ -92,7 +93,7 @@ background-color: #1f2937;
 }
 p{
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: (18/16)rem;
 
 }
 button{
